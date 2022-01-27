@@ -6,6 +6,7 @@ body {
   }
   #description{
     width: 800px;
+    text-align: center;
   }
   #survey-form{
     padding: 10px;
