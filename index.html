@@ -9,5 +9,27 @@
 <body>
     <p>Hello World! We are software developpers.</p>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et vel temporibus aliquid. Nemo, reiciendis eos. Nobis inventore laudantium distinctio, nesciunt fugiat magnam ex commodi excepturi ad harum itaque deleniti autem.</p>
+    <form action="" id="survey-form">
+        <label for="name" id="name-label">Name:</label><br>
+        <input type="text" id="name-label" placeholder="Enter your name"><br>
+        <label for="email" id="email-label">Email:</label><br>
+        <input type="email" id="email-label" required placeholder="Enter your email"><br>
+        <label for="age"  id="number-label"  > age: </label> <br>
+        <input type="number" id="number-label" required min="10" max="100" placeholder="Age"><br>
+        <select id="dropdown">
+         <option value="sex">Female</option>
+         <option value="sex"> Male</option>
+         <option value="sex"> Other</option>
+        </select><br>
+        <input type="radio" value="mec"> 
+        <label>mecanic</label><br>
+        <input type="radio" value="elec">
+        <label for="elec">Electrical</label><br>
+        <input type="radio" value="electro">
+        <label for="electro">electronic</label><br>
+        <textarea name="Message" id="Message" cols="30" rows="10" placeholder="Write Message"></textarea><br>
+        <button id= "Submit" > Submit </button> <br>
+
+    </form>
 </body>
 </html>
